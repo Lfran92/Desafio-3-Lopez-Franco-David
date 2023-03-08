@@ -1,0 +1,21 @@
+.imgLogo {
+    border-radius: 50%;
+    height: 100px;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    text-align: center;
+}
+
+hr {
+    color: black;
+    height: 2px;
+    background-color: $lineas;
+    margin-top: 30px;
+
+}
