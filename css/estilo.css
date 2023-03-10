@@ -1,3 +1,7 @@
+body {
+  background: linear-gradient(to top, #e0eafc, #cfdef3);
+}
+
 .imgLogo {
   border-radius: 50%;
   height: 100px;
@@ -6,6 +10,15 @@
 .navegacion {
   display: flex;
   justify-content: center;
+}
+
+.anclas {
+  text-decoration: none;
+  margin: 0 1rem;
+  color: rgb(75, 73, 73);
+}
+.anclas:hover {
+  color: rgb(27, 26, 26);
 }
 
 .titulo {
@@ -36,10 +49,29 @@ h1 {
   height: 200px;
 }
 
-h2 {
+.subtitulo {
+  background-color: none;
+  height: 3rem;
+  margin-bottom: 3rem;
+}
+.subtitulo h2 {
   display: flex;
   justify-content: center;
-  margin: 50px 0 30px 0;
+  margin: 3rem 0 3rem 0;
+}
+
+.imagenGaleria {
+  background-color: none;
+  border-radius: 1rem;
+  padding: 0.4rem;
+  max-width: 100%;
+  height: auto;
+  transition: all 0.3s ease;
+  filter: grayscale(50%);
+}
+.imagenGaleria:hover {
+  filter: grayscale(0%);
+  transform: scale(1.03);
 }
 
 /*Paginas secundarias*/
