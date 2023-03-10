@@ -51,9 +51,16 @@ h1 {
 /*Paginas secundarias*/
 .tarjeta1 {
     width: 18rem;
-    height: 25rem;
-    border: 5px solid;
+    height: 30rem;
+    border: 0.1rem solid black;
     margin-bottom: 20px;
+}
+
+.btnColor{
+    background-color: rgb(20, 111, 153);
+    &:hover{
+        background-color:rgb(58, 176, 231) ;
+    }
 }
 
 
@@ -63,3 +70,5 @@ h3 {
     margin-bottom: 50px;
     margin-left: 20px;
 }
+
+
